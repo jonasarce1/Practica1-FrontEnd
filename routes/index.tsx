@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <div class="comic-bubble">
-        <p class="comic-text">¡Hola, soy Jonás! Te recomiendo activar el audio y dar permisos de audio y vídeo a tu navegador antes de empezar. (Puede tardar en cargar la página por favor ten paciencia)</p>
+        <p class="comic-text">¡Hola, soy Jonás! Te recomiendo activar el audio y dar permisos de audio y vídeo a tu navegador antes de empezar. (La página puede tardar en cargar por favor ten paciencia)</p>
       </div>
       <div>
       <img class = "yo" src = "/images/yo.jpeg" alt = "Un chico muy guapo"></img>

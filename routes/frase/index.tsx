@@ -96,6 +96,7 @@ const Page = (props: PageProps<string>) => {
                         </div>
                     </div>
                 </div>
+                <div class = "bola_disco"></div>
             </div>
         )
     }catch{

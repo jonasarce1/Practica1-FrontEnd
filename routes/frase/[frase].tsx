@@ -77,6 +77,30 @@ const frase = props.data;
                     <img class="ufo" src="/gifs/ufo.gif" alt="Ovni"/>
                 </div>
                 <Egg/>
+                <div class="scene">
+                    <div class="cube">
+                        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
+                        <div class="face front">
+                            <i class="em em-u6e80" aria-role="presentation" aria-label="SQUARED CJK UNIFIED IDEOGRAPH-6E80"></i>
+                            </div>
+                        <div class="face back">
+                            <i class="em em-u5408" aria-role="presentation" aria-label="SQUARED CJK UNIFIED IDEOGRAPH-5408"></i>
+                        </div>
+                        <div class="face right">
+                            <i class="em em-u7a7a" aria-role="presentation" aria-label="SQUARED CJK UNIFIED IDEOGRAPH-7A7A"></i>
+                        </div>
+                        <div class="face left">
+                            <i class="em em-u6709" aria-role="presentation" aria-label="SQUARED CJK UNIFIED IDEOGRAPH-6709"></i>
+                        </div>
+                        <div class="face top">
+                            <i class="em em-u7121" aria-role="presentation" aria-label="SQUARED CJK UNIFIED IDEOGRAPH-7121"></i>
+                        </div>
+                        <div class="face bottom">
+                            <i class="em em-u6307" aria-role="presentation" aria-label="SQUARED CJK UNIFIED IDEOGRAPH-6307"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class = "bola_disco"></div>
             </div>
         )
     }catch{
