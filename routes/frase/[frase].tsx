@@ -100,7 +100,9 @@ const frase = props.data;
                         </div>
                     </div>
                 </div>
-                <div class = "bola_disco"></div>
+                <div class="contenedor_bola">
+                    <div class="bola_disco"></div>
+                </div>
             </div>
         )
     }catch{

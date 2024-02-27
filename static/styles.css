@@ -853,8 +853,15 @@ html {
 
 /* Bola de discoteca, adquirida de https://cdpn.io/stephaniehobson/fullpage/ZGZBVW */
 
-.bola_disco {
+.contenedor_bola {
   position: fixed;
+  top: 37%;
+  left: 45%;
+  animation: aparecer_bola 25s ease-in-out forwards; 
+}
+
+.bola_disco {
+  position: relative; 
   z-index: 0;
   display: flex;
   margin: 0 auto;
@@ -869,10 +876,7 @@ html {
   background-position: center center, center center, 37.5px -25px, 12.5px 0, 0 0, 25px 25px, -25px 0, 0 25px;
   animation: ball 1s infinite linear;
   color: #000;
-  top: 37%;
-  left: 45%;
   text-align: center;
-  animation: aparecer_bola 25s ease-in-out;
 }
 
 body {
